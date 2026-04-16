@@ -52,17 +52,17 @@ body {
   font-family: 'Roboto', sans-serif;
   background: black;
   color: white;
+  line-height: 1.4;
 }
 
-/* ── SEÇÃO PRETA ── */
 .section-dark {
   background: black;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 20px 120px;
-  min-height: 100vh;
+  padding: 40px 20px 60px;
+  min-height: 92vh;
 }
 
 .container {
@@ -74,12 +74,12 @@ body {
 .username {
   font-size: 2rem;
   font-weight: 900;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .avatar {
   width: 150px;
-  margin-bottom: 1px;
+  margin-bottom: 0px;
 }
 
 .divider {
@@ -149,12 +149,11 @@ body {
   margin-top: 5px;
 }
 
-/* ── ONDA ── */
 .wave-divider {
   position: relative;
   background: black;
   line-height: 0;
-  margin-top: -2px;
+  margin-top: -60px;
 }
 
 .wave-divider canvas {
@@ -162,7 +161,6 @@ body {
   width: 100%;
 }
 
-/* ── SEÇÃO BRANCA ── */
 .section-light {
   background: white;
   color: black;
@@ -190,7 +188,6 @@ body {
 
 <body>
 
-<!-- ── SEÇÃO PRETA ── -->
 <section class="section-dark">
   <div class="container">
 
@@ -241,15 +238,13 @@ body {
   </div>
 </section>
 
-<!-- ── ONDA ANIMADA ── -->
 <div class="wave-divider">
   <canvas id="waveCanvas"></canvas>
 </div>
 
-<!-- ── SEÇÃO BRANCA ── -->
 <section class="section-light">
-  <h2>TEXTO DE TESTE</h2>
-  <p>Este é um parágrafo de exemplo na seção branca. O conteúdo que vier aqui terá fundo branco e letras pretas, contrastando com a seção escura acima separada pela onda.</p>
+  <h2>PROJETOS</h2>
+  <p>Em breve.</p>
 </section>
 
 <script>
