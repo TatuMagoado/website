@@ -28,15 +28,13 @@
 <meta name="twitter:description" content="website pessoal. links, playlist e email de contato">
 <meta name="twitter:image" content="https://noctis.website/preview.png">
 
-</head>
-
 <script type="application/ld+json">
 {
- "@context": "https://schema.org",
- "@type": "WebSite",
- "name": "noctis.website",
- "url": "https://noctis.website",
- "alternateName": "noctis.website"
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "noctis.website",
+  "url": "https://noctis.website",
+  "alternateName": "noctis.website"
 }
 </script>
 
@@ -44,153 +42,265 @@
 
 <style>
 
-body{
-    margin:0;
-    background:black;
-    font-family:'Roboto',sans-serif;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
-    text-align:center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    width:90%;
-    max-width:500px;
+body {
+  font-family: 'Roboto', sans-serif;
+  background: black;
+  color: white;
 }
 
-.username{
-    font-size:2rem;
-    font-weight:900;
-    margin-bottom:10px;
+/* ── SEÇÃO PRETA ── */
+.section-dark {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px 120px;
+  min-height: 100vh;
 }
 
-.avatar{
-    width:150px;
-    margin-bottom:1px;
+.container {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
 }
 
-.divider{
-    width:100%;
-    height:2px;
-    background:white;
-    margin:15px 0;
+.username {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 10px;
 }
 
-.section-title{
-    font-size:2rem;
-    font-weight:900;
-    letter-spacing:2px;
+.avatar {
+  width: 150px;
+  margin-bottom: 1px;
 }
 
-.section-subtitle{
-    font-size:1rem;
-    color:#8a8a8a;
-    margin-bottom:15px;
+.divider {
+  width: 100%;
+  height: 2px;
+  background: white;
+  margin: 15px 0;
 }
 
-.social-row{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:5px;
-    margin-bottom:15px;
+.section-title {
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
 }
 
-.social-link{
-    width:60px;
-    height:60px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-radius:50%;
-    transition:0.3s ease;
+.section-subtitle {
+  font-size: 1rem;
+  color: #8a8a8a;
+  margin-bottom: 15px;
 }
 
-.social-link img{
-    width:40px;
-    filter:invert(1);
-    transition:0.3s ease;
+.social-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
 }
 
-.social-link:hover{
-    background:white;
+.social-link {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.3s ease;
 }
 
-.social-link:hover img{
-    filter:invert(0);
+.social-link img {
+  width: 40px;
+  filter: invert(1);
+  transition: 0.3s ease;
 }
 
-.playlist-img{
-    width:150px;
-    margin:10px 0;
+.social-link:hover {
+  background: white;
 }
 
-.playlist-title{
-    font-size:2rem;
-    font-weight:900;
-    margin-top:10px;
+.social-link:hover img {
+  filter: invert(0);
 }
 
-.playlist-sub{
-    color:#8a8a8a;
-    margin-top:5px;
+.playlist-img {
+  width: 150px;
+  margin: 10px 0;
+}
+
+.playlist-title {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.playlist-sub {
+  color: #8a8a8a;
+  margin-top: 5px;
+}
+
+/* ── ONDA ── */
+.wave-divider {
+  position: relative;
+  background: black;
+  line-height: 0;
+  margin-top: -2px;
+}
+
+.wave-divider canvas {
+  display: block;
+  width: 100%;
+}
+
+/* ── SEÇÃO BRANCA ── */
+.section-light {
+  background: white;
+  color: black;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section-light h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.section-light p {
+  font-size: 1rem;
+  color: #444;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.7;
 }
 
 </style>
 </head>
 
 <body>
-    
-<div class="container">
-        
-<div class="username">@noctist_t</div>
-        
-<img src="https://pbs.twimg.com/profile_images/1947009807120044035/nlNHy8m7_400x400.jpg" class="avatar">
-        
-<div class="section-subtitle">otatnoc.tis@gmail.com</div>
-        
-<div class="divider"></div>
-        
-<div class="section-title">LINKS</div>
-<div class="section-subtitle">Não costumo usar redes sociais, apenas tenho</div>
-        
-<div class="social-row">
-            
-<a href="https://www.youtube.com/@noctist_t" target="_blank" rel="noopener noreferrer" class="social-link">
-<img src="https://ou-tu-es.ch/wp-content/uploads/2024/12/LOGOS-YOUTUBE-NOIR.png" alt="YouTube">
-</a>
-        
-<a href="https://x.com/noctist_t" target="_blank" rel="noopener noreferrer" class="social-link">
-<img src="https://img.freepik.com/vetores-premium/novo-vetor-de-design-do-logotipo-twitter-x_1340851-70.jpg?semt=ais_related_payload_trends&w=740&q=80" alt="X">
-</a>
-        
-<a href="https://www.instagram.com/noctist_t" target="_blank" rel="noopener noreferrer" class="social-link">
-<img src="https://www.iconpacks.net/icons/2/free-instagram-logo-icon-3497-thumb.png" alt="Instagram">
-</a>
-        
-<a href="https://www.twitch.tv/noctist_t" target="_blank" rel="noopener noreferrer" class="social-link">
-<img src="https://img.icons8.com/androidL/1200/twitch.jpg" alt="Twitch">
-</a>
-        
-<a href="https://steamcommunity.com/id/noctist_t/" target="_blank" rel="noopener noreferrer" class="social-link">
-<img src="https://i.etsystatic.com/22360457/r/il/c8e3b2/2247224229/il_1080xN.2247224229_f5ci.jpg" alt="Steam">
-</a>
-        
+
+<!-- ── SEÇÃO PRETA ── -->
+<section class="section-dark">
+  <div class="container">
+
+    <div class="username">@noctist_t</div>
+
+    <img src="https://pbs.twimg.com/profile_images/1947009807120044035/nlNHy8m7_400x400.jpg" class="avatar" alt="avatar">
+
+    <div class="section-subtitle">otatnoc.tis@gmail.com</div>
+
+    <div class="divider"></div>
+
+    <div class="section-title">LINKS</div>
+    <div class="section-subtitle">Não costumo usar redes sociais, apenas tenho</div>
+
+    <div class="social-row">
+
+      <a href="https://www.youtube.com/@noctist_t" target="_blank" rel="noopener noreferrer" class="social-link">
+        <img src="https://ou-tu-es.ch/wp-content/uploads/2024/12/LOGOS-YOUTUBE-NOIR.png" alt="YouTube">
+      </a>
+
+      <a href="https://x.com/noctist_t" target="_blank" rel="noopener noreferrer" class="social-link">
+        <img src="https://img.freepik.com/vetores-premium/novo-vetor-de-design-do-logotipo-twitter-x_1340851-70.jpg?semt=ais_related_payload_trends&w=740&q=80" alt="X">
+      </a>
+
+      <a href="https://www.instagram.com/noctist_t" target="_blank" rel="noopener noreferrer" class="social-link">
+        <img src="https://www.iconpacks.net/icons/2/free-instagram-logo-icon-3497-thumb.png" alt="Instagram">
+      </a>
+
+      <a href="https://www.twitch.tv/noctist_t" target="_blank" rel="noopener noreferrer" class="social-link">
+        <img src="https://img.icons8.com/androidL/1200/twitch.jpg" alt="Twitch">
+      </a>
+
+      <a href="https://steamcommunity.com/id/noctist_t/" target="_blank" rel="noopener noreferrer" class="social-link">
+        <img src="https://i.etsystatic.com/22360457/r/il/c8e3b2/2247224229/il_1080xN.2247224229_f5ci.jpg" alt="Steam">
+      </a>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <a href="https://music.youtube.com/playlist?list=PL-uT8UAGj3IXYc8xOje2ilSxpYuc8gVKb" target="_blank" rel="noopener noreferrer">
+      <img src="TCUT.jpg" class="playlist-img" alt="Playlist Tá Caina um Toró">
+    </a>
+
+    <div class="playlist-title">TÁ CAINO UM TORÓ</div>
+    <div class="playlist-sub">Playlist • Mais de 28h de músicas</div>
+
+  </div>
+</section>
+
+<!-- ── ONDA ANIMADA ── -->
+<div class="wave-divider">
+  <canvas id="waveCanvas"></canvas>
 </div>
 
-<div class="divider"></div>
-    
-<a href="https://music.youtube.com/playlist?list=PL-uT8UAGj3IXYc8xOje2ilSxpYuc8gVKb" target="_blank" rel="noopener noreferrer">
-<img src="TCUT.jpg" class="playlist-img" alt="Playlist Tá Caina um Toró">
-</a>
-    
-<div class="playlist-title">TÁ CAINO UM TORÓ</div>
-<div class="playlist-sub">Playlist • Mais de 28h de músicas</div>
+<!-- ── SEÇÃO BRANCA ── -->
+<section class="section-light">
+  <h2>TEXTO DE TESTE</h2>
+  <p>Este é um parágrafo de exemplo na seção branca. O conteúdo que vier aqui terá fundo branco e letras pretas, contrastando com a seção escura acima separada pela onda.</p>
+</section>
 
-</div>
+<script>
+  const canvas = document.getElementById('waveCanvas');
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width = canvas.offsetWidth * window.devicePixelRatio;
+    canvas.height = 110 * window.devicePixelRatio;
+    canvas.style.height = '110px';
+    ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+  }
+
+  resize();
+  window.addEventListener('resize', resize);
+
+  let t = 0;
+
+  function draw() {
+    const w = canvas.offsetWidth;
+    const h = 110;
+
+    ctx.clearRect(0, 0, w, h);
+    ctx.beginPath();
+    ctx.moveTo(0, h);
+
+    for (let x = 0; x <= w; x += 2) {
+      const p = x / w;
+
+      const y =
+        Math.sin(p * 3.1  + t * 1.8) * 18 +
+        Math.sin(p * 5.7  + t * 2.5) * 10 +
+        Math.sin(p * 1.9  - t * 1.2) * 14 +
+        Math.sin(p * 8.3  + t * 3.1) *  5 +
+        Math.cos(p * 2.4  + t * 0.9) * 12;
+
+      ctx.lineTo(x, h * 0.5 + y);
+    }
+
+    ctx.lineTo(w, h);
+    ctx.lineTo(0, h);
+    ctx.closePath();
+    ctx.fillStyle = 'white';
+    ctx.fill();
+
+    t += 0.035;
+    requestAnimationFrame(draw);
+  }
+
+  draw();
+</script>
 
 </body>
 </html>
